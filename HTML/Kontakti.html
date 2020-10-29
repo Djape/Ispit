@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dokument</title>
+    <link rel="stylesheet" href="../Stylesheet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  </head>
+  <body onload="Pomeranje();">
+    <nav>
+      <img src="../Slike/Logo.png" class="logo">
+      <ul class="glavni-meni">
+        <li><a href="Index.html">Početna</a></li>
+        <li><a href="O_nama.html">O nama</a></li>
+        <li><a href="Galerija.html">Galerija</a></li>
+      </ul>
+    </nav>
+    <form >
+      <fieldset>
+        <h3>Ime:</h3>
+        <input type="text" name="ime" autofocus required">
+        <h3>Prezime:</h3>
+        <input type="text" name="prezime" required />
+        <h3>Email:</h3>
+        <input type="email" name="email" required />
+        <h3>Broj telefona:</h3>
+        <input type="tel" name="brTelefona"/>
+        <h3>Poruka:</h3>
+        <textarea form="forma" class="poruka"></textarea>
+        <input type="submit" id="submit"  value="Posalji" onclick="sacuvaj(this.form)"/>
+      </fieldset>
+    </form>
+    <script src="../JS/script4.js"></script>
+  </body>
+</html>

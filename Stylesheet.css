@@ -1,0 +1,147 @@
+/*Sve*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  min-height: 140px;
+  position: relative;
+}
+.logo {
+  width: 90px;
+  position: absolute;
+  left: 0px;
+}
+.glavni-meni {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+  min-height: 140px;
+}
+.glavni-meni li {
+  list-style: none;
+}
+.glavni-meni a {
+  color:  rgb(245, 245, 245);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-family: 'Russo One', sans-serif;
+}
+.glavni-meni a:hover {
+  letter-spacing: 10px;
+  font-size: 35px;
+  transition: 1s ease-out;
+  color: rgb(165, 165, 165);
+}
+/*Index*/
+.sat{
+  margin-top: 100px;
+  min-height: 400px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 120px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer{
+  display: block;
+  width: 100%;
+  text-align: center;
+  bottom: 10px;
+  border-top: 1px solid rgb(0, 0, 0);
+  position: fixed;
+}
+/* o nama */
+.glavniDiv{
+  text-align: center;
+}
+.naslov{
+  display: inline-block;
+  margin: 50px auto 0px auto;
+  font-size: 30px;
+}
+.tekst{
+  margin: 10px;
+  font-size: 23px;
+}
+/*Galerija*/
+.trening{
+  width: 1050px;
+  height: 670px;
+  margin: 50px auto 25px auto;
+  background: url('Slike/Galerija/Trening1.jpg')center/cover no-repeat;
+  border-radius: 5px;
+  position: relative;
+  filter: grayscale(100%);
+}
+.takmicenje{
+  width: 1050px;
+  height: 670px;
+  margin: 25px auto 50px auto;
+  background: url('Slike/Galerija/Takmicenje1.jpg')center/cover no-repeat;
+  border-radius: 5px;
+  position: relative;
+  filter: grayscale(100%);
+}
+.dugme{
+  width: 60px;
+  height: 80px;
+  font-size: 30px;
+}
+#prethodno{
+  position: absolute;
+  left: 0px;
+  top: 50%;
+}
+#sledece{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+/* kontakt */
+fieldset {
+  margin: 50px auto;
+  width: 700px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  color:  rgb(245, 245, 245);
+  text-align: center;
+  padding: 15px;
+}
+fieldset input {
+  width: 550px;
+  background-color: rgb(250, 250, 250);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+}
+textarea {
+  height: 250px;
+  width: 550px;
+  background-color: rgb(250, 250, 250);
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 5px;
+  color: black;
+}
+fieldset input[type="submit"] {
+  margin: 15px auto;
+  width: 400px;
+  display: inline-block;
+  position: relative;
+  padding: 3px 5px;
+  text-align: center;
+  font-size: 12px;
+}
